@@ -20,7 +20,7 @@ ul{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.767);
 }
 
 /* Estilos Header */
@@ -37,7 +37,7 @@ ul{
   background-repeat: no-repeat;
   background-position: center;
 
-  height: 95vh;
+  height: 90vh;
   position: relative;
   
 }
@@ -56,8 +56,9 @@ ul{
   position: absolute;
   bottom: 0%;
   gap: 2rem;
-  max-width: 30rem;
-  margin: 2rem;
+  max-width: 40rem;
+  margin: 3%;
+  
   
 }
 
@@ -80,6 +81,8 @@ ul{
 }
 .index-parrafoheader{
   color: rgb(247, 247, 247);
+  width: 100%;
+  text-align: justify;
 }
 .index-h1{
   color:rgb(246, 246, 246)  
@@ -99,8 +102,7 @@ ul{
  position:absolute;
  height: 50%;
  bottom: 0%;
- align-items: center;
- text-align: center;
+ margin: 2rem;
 
 
 
@@ -134,11 +136,17 @@ ul{
   margin: 1rem;
 }
 
+.horario-container{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 5rem;
+  te
+
+}
+
 .index-main{
   margin: 0rem;
-  background-color: rgb(10, 10, 58);
-
-
+  
 }
 
 
@@ -208,8 +216,8 @@ ul{
 .carousel-fotos{
   width: 100%;
   height: 25rem;
-
   object-fit: cover;
+ 
 }
 
 /*footer*/
@@ -219,7 +227,6 @@ footer{
   height: 10rem;
 
 }
-
 
 
 .footer-container-flex{
@@ -252,7 +259,7 @@ color: rgb(240, 234, 234);
   }
 
 .galeria-titulo{
-  width: 15rem;
+  width: 100%;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 4; background-color: rgb(16, 81, 202);}
