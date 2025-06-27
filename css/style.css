@@ -104,8 +104,6 @@ ul{
  bottom: 0%;
  margin: 2rem;
 
-
-
 }
 
 .contenedor-inferior-header-motos h1,.contenedor-inferior-header-motos p {
@@ -140,11 +138,11 @@ ul{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   margin: 5rem;
-  te
 
 }
 
 .index-main{
+  background-color: rgb(8, 8, 85);
   margin: 0rem;
   
 }
@@ -182,7 +180,7 @@ ul{
 
 .card-auto{
   width: 25rem;
-  background-color: rgba(236, 237, 238, 0.925);
+  background-color: rgba(228, 231, 233, 0.801);
   padding: 1rem;
   border-color: rgb(24, 23, 23);
 
