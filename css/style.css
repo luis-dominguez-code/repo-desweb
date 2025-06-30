@@ -36,6 +36,7 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  object-position: center;
 
   height: 90vh;
   position: relative;
@@ -49,6 +50,20 @@ ul{
 .motos-header{
   background-image: url(../img/background6.jpeg);
 }
+
+.contacto-header{
+  background-image: url(../img/background7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  object-position: center;
+  height: 98vh;
+  position: relative;
+  margin: top;
+
+
+}
+
 .contenedor-inferior-header{
   display: flex;
   flex-direction: column;
@@ -59,9 +74,18 @@ ul{
   max-width: 40rem;
   margin: 3%;
   
-  
 }
-
+.contenedor-inferior-header-contacto{
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+  max-width: 30rem;
+  margin: 7%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
 
 
 .index-header-flex{
@@ -84,8 +108,12 @@ ul{
   width: 100%;
   text-align: justify;
 }
-.index-h1{
-  color:rgb(246, 246, 246)  
+.index-h1-contacto,.index-h1{
+  color: azure; 
+}
+
+.index-h1-contacto{
+  text-decoration: underline;
 }
 .btn-header{
   width: 15rem;
@@ -105,6 +133,8 @@ ul{
  margin: 2rem;
 
 }
+
+
 
 .contenedor-inferior-header-motos h1,.contenedor-inferior-header-motos p {
  max-width: 30rem;
@@ -147,6 +177,22 @@ ul{
   
 }
 
+.index-main-contacto{
+  background-color: white;
+}
+
+.main-contacto{
+  display: flex;
+  justify-content: center;
+
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+
+  
+}
 
 .nuestrasmotos-titulo{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -173,8 +219,6 @@ ul{
   flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
-
-  
 
 }
 
@@ -216,6 +260,15 @@ ul{
   height: 25rem;
   object-fit: cover;
  
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  max-width: 30%;
 }
 
 /*footer*/
@@ -279,5 +332,22 @@ color: rgb(240, 234, 234);
 .iframe-container{
   width: 50%;
 }
+
+.contenedor-inferior-header-contacto{
+  margin: 8%;
+
+}
+.card-contacto{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  gap: 2rem;
+  margin: 3rem;
+  width: 100%;
+
+}
+
+
 
 }
