@@ -107,6 +107,8 @@ ul{
   color: rgb(247, 247, 247);
   width: 100%;
   text-align: justify;
+  font-size: x-large;
+ 
 }
 .index-h1-contacto,.index-h1{
   color: azure; 
@@ -117,6 +119,7 @@ ul{
 
 .index-h1-contacto{
   text-decoration: underline;
+  margin: initial;
 }
 .btn-header{
   width: 15rem;
@@ -134,6 +137,7 @@ ul{
  height: 50%;
  bottom: 0%;
  margin: 2rem;
+ 
 
 }
 
