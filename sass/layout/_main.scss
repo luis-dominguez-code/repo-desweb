@@ -1,0 +1,133 @@
+/* Estilos Main */
+
+.sucursale-main-container{
+  
+    @extend %flexcolumn;
+
+}
+
+
+.sucursales-titulo{
+ text-align: center;
+ color: $colorblanco;
+ margin: 0%;
+ background-color: $backgroundcolorazul;
+ width: 100%;
+
+}
+
+.iframe-container{
+  width: 90%;
+  margin: 1rem;
+}
+
+.horario-container{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 5rem;
+
+}
+
+.index-main{
+  background-color: $backgroundcolorazul;
+  margin: 0rem;
+  
+}
+
+.index-main-contacto{
+  background-color: $colorblanco;
+}
+
+.main-contacto{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+
+.nuestrasmotos-titulo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  text-decoration-style: solid;
+  width: 100%;
+  font-weight: 800;
+  font-size: xx-large;
+  color: $colorblanco;
+  
+}
+
+.galeria-titulo{
+  color: rgba(0, 0, 0, 0.959);
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+  font-size: xxx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nuestrasmotos-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.card-auto{
+  width: 25rem;
+  background-color: rgba(228, 231, 233, 0.801);
+  padding: 1rem;
+  border-color: rgb(24, 23, 23);
+
+}
+.card-auto img{
+  width: 100%;
+  height: 15rem;
+}
+.card-auto-precio{
+  color: rgb(9, 138, 16);
+  font-weight: 600;
+}
+
+.card-auto-precio span{
+  text-decoration: line-through;
+  color: rgb(17, 8, 8);
+
+}
+
+.card-auto-btn{
+  width: 100%;
+  padding: 1%;
+  background-color: rgb(70, 124, 185);
+  color: $colorblanco;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.carousel-fotos{
+  width: 100%;
+  height: 30rem;
+  object-fit: contain;  
+ 
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  max-width: 30%;
+}
