@@ -1,0 +1,367 @@
+/* variables */
+
+$colorblanco: #fff;
+$backgroundcolorazul: #1a135c;
+
+/*extend*/
+
+%flexcolumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
+}
+
+
+
+* {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ul{
+  list-style: none;
+
+  @extend %flexcolumn;
+
+  gap: 2rem;
+
+}
+
+.oscurecer-fondo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+/* Estilos Header */
+.logotipo{
+  width: 3rem;
+  height: 5rem;
+
+}
+
+
+.motos-header,.index-header,.sucursales-header{
+  background-image: url(../img/background2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-position: center;
+
+  height: 90vh;
+  position: relative;
+  
+}
+
+.sucursales-header{
+  background-image: url(../img/background.header3.jpeg);
+}
+
+.motos-header{
+  background-image: url(../img/background6.jpeg);
+}
+
+.contacto-header{
+  background-image: url(../img/background7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  object-position: center;
+  height: 98vh;
+  position: relative;
+  margin: top;
+
+
+}
+
+.contenedor-inferior-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  gap: 2rem;
+  max-width: 40rem;
+  margin: 3%;
+  
+}
+.contenedor-inferior-header-contacto{
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+  max-width: 30rem;
+  margin: 7%;
+  
+}
+
+.navegacion-superior ul li a{
+  color: $colorblanco;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 800;
+  margin-right: 1rem;
+  
+}
+.index-parrafoheader{
+  color: rgb(247, 247, 247);
+  width: 100%;
+  text-align: justify;
+  font-size: x-large;
+ 
+}
+.index-h1-contacto,.index-h1{
+  color: $colorblanco; 
+  font-family: "Changa one", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.index-h1-contacto{
+  text-decoration: underline;
+  margin: initial;
+}
+.btn-header{
+  width: 15rem;
+  font-weight: 900;
+  font-size: large;
+  padding: 12px 32px;
+  border-bottom-color: rgb(49, 48, 48);
+  cursor: pointer;
+}
+
+.contenedor-inferior-header-motos{
+ display: flex;
+ flex-direction: column;
+ position:absolute;
+ height: 50%;
+ bottom: 0%;
+ margin: 2rem;
+ 
+
+}
+
+
+
+.contenedor-inferior-header-motos h1,.contenedor-inferior-header-motos p {
+ max-width: 30rem;
+}
+
+
+/* Estilos Main */
+
+.sucursale-main-container{
+  
+    @extend %flexcolumn;
+
+}
+
+
+.sucursales-titulo{
+ text-align: center;
+ color: $colorblanco;
+ margin: 0%;
+ background-color: $backgroundcolorazul;
+ width: 100%;
+
+}
+
+.iframe-container{
+  width: 90%;
+  margin: 1rem;
+}
+
+.horario-container{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 5rem;
+
+}
+
+.index-main{
+  background-color: $backgroundcolorazul;
+  margin: 0rem;
+  
+}
+
+.index-main-contacto{
+  background-color: $colorblanco;
+}
+
+.main-contacto{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+
+.nuestrasmotos-titulo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  text-decoration-style: solid;
+  width: 100%;
+  font-weight: 800;
+  font-size: xx-large;
+  color: $colorblanco;
+  
+}
+
+.galeria-titulo{
+  color: rgba(0, 0, 0, 0.959);
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+  font-size: xxx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nuestrasmotos-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.card-auto{
+  width: 25rem;
+  background-color: rgba(228, 231, 233, 0.801);
+  padding: 1rem;
+  border-color: rgb(24, 23, 23);
+
+}
+.card-auto img{
+  width: 100%;
+  height: 15rem;
+}
+.card-auto-precio{
+  color: rgb(9, 138, 16);
+  font-weight: 600;
+}
+
+.card-auto-precio span{
+  text-decoration: line-through;
+  color: rgb(17, 8, 8);
+
+}
+
+.card-auto-btn{
+  width: 100%;
+  padding: 1%;
+  background-color: rgb(70, 124, 185);
+  color: $colorblanco;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.carousel-fotos{
+  width: 100%;
+  height: 30rem;
+  object-fit: contain;  
+ 
+}
+
+.card-contacto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  max-width: 30%;
+}
+
+/*footer*/
+
+footer{
+  background-color: rgb(0, 0, 0);
+  height: 10rem;
+
+}
+
+
+.footer-container-flex{
+  color: $colorblanco;
+
+  @extend %flexcolumn;
+
+ 
+  height: 2rem;
+  
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+color: $colorblanco;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 4; background-image: linear-gradient(to right, rgb(16, 81, 202), rgb(125, 181, 245));}
+.div2 { grid-area: 2 / 1 / 3 / 4; background-image: linear-gradient(to right,rgb(3, 3, 90), rgb(54, 118, 155));}
+.div3 { grid-area: 3 / 1 / 4 / 4; background-image: linear-gradient(to right,red, rgb(245, 169, 169));}
+
+
+@media only screen and (min-width: 900px){
+  ul,.index-header-flex{
+    flex-wrap: nowrap;
+  
+}
+
+.galeria-titulo{
+  width: 100%;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 4; background-color: rgb(16, 81, 202);}
+.div2 { grid-area: 2 / 1 / 3 / 4; background-color: rgb(3, 3, 90);}
+.div3 { grid-area: 3 / 1 / 4 / 4; background-color: red;}
+
+.contenedor-inferior-header-motos,.contenedor-inferior-header{
+  margin-left: 2rem;
+
+}
+
+
+.sucursale-main-container{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iframe-container{
+  width: 50%;
+}
+
+.contenedor-inferior-header-contacto{
+  margin: 8%;
+
+}
+.card-contacto{
+  display: flex;
+  justify-content: flex-stat;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 3rem;
+  width: 100%;
+
+}
+
+}
