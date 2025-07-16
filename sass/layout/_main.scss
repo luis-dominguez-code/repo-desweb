@@ -16,6 +16,10 @@
 
 }
 
+.titulo-main-contacto{
+  margin: 2rem;
+}
+
 .iframe-container{
   width: 90%;
   margin: 1rem;
@@ -28,7 +32,7 @@
 
 }
 
-.index-main{
+.index-main, .main-index{
   background-color: $backgroundcolorazul;
   margin: 0rem;
   
@@ -55,23 +59,26 @@
 }
 
 .nuestrasmotos-titulo{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: sans-serif;
   text-align: center;
   text-decoration-style: solid;
   width: 100%;
   font-weight: 800;
   font-size: xx-large;
   color: $colorblanco;
+  padding: 1rem;
+ 
   
 }
 
 .galeria-titulo{
-  color: rgba(0, 0, 0, 0.959);
+  color: $colorblanco;
   text-align: center;
   width: 100%;
   font-weight: 900;
   font-size: xxx-large;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 1rem;
 }
 
 .nuestrasmotos-container{
@@ -94,9 +101,10 @@
   width: 100%;
   height: 15rem;
 }
+
 .card-auto-precio{
-  color: rgb(9, 138, 16);
-  font-weight: 600;
+  color: rgba(20, 94, 25, 0.76);
+  font-weight: bold;
 }
 
 .card-auto-precio span{
@@ -114,6 +122,10 @@
   text-transform: uppercase;
   cursor: pointer;
 
+}
+
+.card-auto-btn:hover{
+  background-color: rgba(20, 94, 25, 0.76)
 }
 
 .carousel-fotos{
