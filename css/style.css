@@ -12,13 +12,13 @@ ul, .footer-container-flex, .sucursale-main-container {
   height: 5rem;
 }
 
-.motos-header, .index-header, .sucursales-header {
+.motos-header, .sucursales-header {
   background-image: url(../img/background2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   object-position: center;
-  height: 90vh;
+  height: 85vh;
   position: relative;
 }
 
@@ -73,7 +73,7 @@ ul, .footer-container-flex, .sucursale-main-container {
 .index-parrafoheader {
   color: rgb(247, 247, 247);
   width: 100%;
-  text-align: justify;
+  text-align: left;
   font-size: x-large;
 }
 
