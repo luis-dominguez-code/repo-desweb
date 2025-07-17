@@ -60,9 +60,7 @@
 }
 
 .contenedor-inferior-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include flexmixin;
   position: absolute;
   bottom: 0%;
   gap: 2rem;
@@ -71,9 +69,9 @@
   
 }
 .contenedor-inferior-header-contacto{
-  display: flex;
+  @include flexmixin;
   flex-direction: unset;
-  justify-content: center;
+  
   position: absolute;
   bottom: 50%;
   max-width: 30rem;
