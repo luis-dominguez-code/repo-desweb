@@ -12,7 +12,7 @@ ul, .footer-container-flex, .sucursale-main-container {
   height: 5rem;
 }
 
-.motos-header, .index-header, .sucursales-header{
+.motos-header, .index-header, .index-header-faqs, .sucursales-header {
   background-image: url(../img/background2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,6 +20,21 @@ ul, .footer-container-flex, .sucursale-main-container {
   object-position: center;
   height: 90vh;
   position: relative;
+}
+
+.index-header-faqs {
+  background-image: url(../img/bmwsport3.jpg);
+}
+
+.servicio-h1, .servicio-h2 {
+  color: #fff;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15rem;
+  font-family: sans-serif;
+  font-weight: 900;
 }
 
 .sucursales-header {
@@ -134,7 +149,7 @@ ul, .footer-container-flex, .sucursale-main-container {
   margin: 5rem;
 }
 
-.index-main, .main-index {
+.index-main, .main-index, .main-faqs {
   background-color: #1a135c;
   margin: 0rem;
 }
@@ -148,6 +163,27 @@ ul, .footer-container-flex, .sucursale-main-container {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.row-btn {
+  background-color: #376d91;
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20rem;
+  height: 50px;
 }
 
 .card-contacto {
@@ -173,7 +209,7 @@ ul, .footer-container-flex, .sucursale-main-container {
   width: 100%;
   font-weight: 900;
   font-size: xxx-large;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   padding: 1rem;
 }
 
@@ -313,6 +349,9 @@ footer {
     gap: 2rem;
     margin: 3rem;
     width: 100%;
+  }
+  .row-btn {
+    width: 100rem;
   }
 }
 * {

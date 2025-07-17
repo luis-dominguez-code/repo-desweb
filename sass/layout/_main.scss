@@ -32,7 +32,7 @@
 
 }
 
-.index-main, .main-index{
+.index-main, .main-index, .main-faqs{
   background-color: $backgroundcolorazul;
   margin: 0rem;
   
@@ -48,6 +48,27 @@
   flex-direction: column;
   align-content: space-around;
 
+}
+
+.row-container{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.row-btn{
+   background-color: #376d91;
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20rem;
+  height: 50px;
 }
 
 .card-contacto{
@@ -77,7 +98,7 @@
   width: 100%;
   font-weight: 900;
   font-size: xxx-large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   padding: 1rem;
 }
 

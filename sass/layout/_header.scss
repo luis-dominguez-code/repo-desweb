@@ -6,7 +6,9 @@
 }
 
 
-.motos-header, .index-header, .sucursales-header{
+
+
+.motos-header, .index-header, .index-header-faqs, .sucursales-header{
   background-image: url(../img/background2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +19,24 @@
   position: relative;
   
 }
+
+.index-header-faqs{
+  background-image: url(../img/bmwsport3.jpg)
+  
+}
+
+.servicio-h1, .servicio-h2{
+  color: #fff;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15rem;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+
 
 .sucursales-header{
   background-image: url(../img/background.header3.jpeg);
