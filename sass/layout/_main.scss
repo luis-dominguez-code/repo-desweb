@@ -58,15 +58,15 @@
 }
 
 .row-btn{
-   background-color: #376d91;
-  border: none;
+  background-color: $backgroundcolorazul;
+  border: 0cap;
   color: white;
   text-align: left;
   text-decoration: none;
-  display: inline-block;
+  
   font-size: x-large;
   cursor: pointer;
-  border-radius: 5px;
+  
   width: 20rem;
   height: 50px;
 }
@@ -164,3 +164,15 @@
   margin: 2rem;
   max-width: 30%;
 }
+
+.card-body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  background-color: $backgroundcolorazul;
+ 
+}
+
+.card{
+  border-color: gray;
+}
+
