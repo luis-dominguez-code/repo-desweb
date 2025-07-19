@@ -12,6 +12,16 @@ ul, .footer-container-flex, .sucursale-main-container {
   height: 5rem;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.collapse {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 0%;
+  padding: 0.5rem;
+}
+
 .motos-header, .index-header, .index-header-faqs, .sucursales-header {
   background-image: url(../img/background2.jpeg);
   background-size: cover;
@@ -225,6 +235,12 @@ ul, .footer-container-flex, .sucursale-main-container {
   background-color: rgba(228, 231, 233, 0.801);
   padding: 1rem;
   border-color: rgb(24, 23, 23);
+  transition: width 2s, height 2s, transform 2s;
+}
+.card-auto .card-auto:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
 }
 
 .card-auto img {
@@ -319,6 +335,9 @@ footer {
 @media only screen and (min-width: 900px) {
   ul, .index-header-flex {
     flex-wrap: nowrap;
+  }
+  .collapse {
+    background-color: rgba(0, 0, 0, 0.2) !important;
   }
   .galeria-titulo {
     width: 100%;

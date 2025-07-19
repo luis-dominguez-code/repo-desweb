@@ -1,8 +1,16 @@
 @media only screen and (min-width: 900px){
+  
+  
   ul,.index-header-flex{
     flex-wrap: nowrap;
   
 }
+
+
+.collapse{
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
 
 .galeria-titulo{
   width: 100%;
@@ -48,5 +56,7 @@
 .row-btn{
   width: 100rem;
 }
+
+
 
 }
