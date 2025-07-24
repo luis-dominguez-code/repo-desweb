@@ -86,11 +86,11 @@
 .contenedor-inferior-header-contacto{
   @include flexmixin;
   flex-direction: unset;
-  
+  height: 20%;
   position: absolute;
   bottom: 50%;
   max-width: 30rem;
-  margin: 7%;
+  margin: 2rem;
   
 }
 
@@ -147,7 +147,26 @@
 }
 
 
+.Titulo-call{
+ display: flex;
+ flex-direction: column;
+ position:absolute;
+ height: 50%;
+ bottom: 0%;
+ margin: 2rem
 
+}
+
+
+.callme{
+ margin: 2rem;
+ position:absolute;
+ height: 16%;
+ bottom: 0%;
+ right: 30%;
+ 
+ 
+}
 
 
 
@@ -156,8 +175,9 @@
   position: absolute;
   bottom: 0%;
   right: 0%;
-  margin: rem;
+  margin: 3rem;
   border-radius: 1rem;
+  filter: brightness(0.6);
  
 
 }

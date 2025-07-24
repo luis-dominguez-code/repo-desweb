@@ -82,10 +82,11 @@ ul, .footer-container-flex, .sucursale-main-container {
   flex-direction: column;
   justify-content: center;
   flex-direction: unset;
+  height: 20%;
   position: absolute;
   bottom: 50%;
   max-width: 30rem;
-  margin: 7%;
+  margin: 2rem;
 }
 
 .navegacion-superior ul li a {
@@ -136,13 +137,31 @@ ul, .footer-container-flex, .sucursale-main-container {
   max-width: 30rem;
 }
 
+.Titulo-call {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  bottom: 0%;
+  margin: 2rem;
+}
+
+.callme {
+  margin: 2rem;
+  position: absolute;
+  height: 16%;
+  bottom: 0%;
+  right: 30%;
+}
+
 .call {
   width: 5rem;
   position: absolute;
   bottom: 0%;
   right: 0%;
-  margin: rem;
+  margin: 3rem;
   border-radius: 1rem;
+  filter: brightness(0.6);
 }
 
 /* Estilos Main */
@@ -152,10 +171,6 @@ ul, .footer-container-flex, .sucursale-main-container {
   margin: 0%;
   background-color: #1a135c;
   width: 100%;
-}
-
-.titulo-main-contacto {
-  margin: 2rem;
 }
 
 .iframe-container {
@@ -174,15 +189,27 @@ ul, .footer-container-flex, .sucursale-main-container {
   margin: 0rem;
 }
 
-.index-main-contacto {
-  background-color: #fff;
-}
-
 .main-contacto {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
+  background-image: url(/img/background8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-position: center;
+  background-size: cover;
+}
+
+.titulo-main-contacto {
+  margin: 2rem;
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+  font-size: xxx-large;
+  font-family: fantasy;
+  padding: 1rem;
+  color: rgb(17, 2, 102);
 }
 
 .row-container {
@@ -244,6 +271,7 @@ ul, .footer-container-flex, .sucursale-main-container {
   background-color: rgba(228, 231, 233, 0.801);
   padding: 1rem;
   border-color: rgb(24, 23, 23);
+  box-shadow: 0 5px 10px #000;
 }
 
 .card-auto img {
@@ -285,9 +313,8 @@ ul, .footer-container-flex, .sucursale-main-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
-  margin: 2rem;
-  max-width: 30%;
+  gap: 1rem;
+  margin: 3rem;
 }
 
 .card-body {
@@ -376,22 +403,31 @@ footer {
     margin: 2rem;
   }
   .call {
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 1rem;
+  }
+  .Titulo-call {
+    margin: 3rem;
+    height: 45%;
+  }
+  .callme {
+    height: 9%;
+    bottom: 0%;
+    right: 10%;
   }
   .iframe-container {
     width: 50%;
   }
   .contenedor-inferior-header-contacto {
-    margin: 8%;
+    margin: 3rem;
   }
   .card-contacto {
     display: flex;
-    justify-content: flex-stat;
+    padding: 2rem;
     flex-direction: row;
-    gap: 2rem;
-    margin: 3rem;
+    gap: 3rem;
+    margin: 0rem;
     width: 100%;
   }
   .row-btn {
