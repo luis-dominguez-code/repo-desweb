@@ -349,21 +349,33 @@ ul, .footer-container-flex, .sucursale-main-container {
 }
 
 .card-historia {
-  margin: 5rem;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-position: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  align-items: center;
 }
 
 .img-historia {
   width: 100%;
-  object-fit: contain;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  max-width: 90%;
 }
 
 .img-historia-1, .img-historia-2 {
-  border-color: rgb(24, 23, 23);
-  box-shadow: 0 5px 10px #000;
+  max-width: 80%;
+  object-fit: contain;
 }
 
 .body-historia {
@@ -454,27 +466,31 @@ footer {
   }
   .card-historia {
     display: flex;
-    flex-direction: row;
-    max-width: 80%;
+    flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0rem;
   }
   .img-historia-1 {
-    width: 30rem !important;
-    height: 18rem !important;
+    width: 800px !important;
+    height: 400px !important;
     margin: 1rem !important;
     position: relative;
   }
   .img-historia-2 {
-    width: 30rem !important;
-    height: 20rem !important;
+    width: 800px !important;
+    height: 600px !important;
     margin: 1rem !important;
     position: relative;
   }
   .body-historia {
-    width: 26rem;
-    height: 32rem;
+    width: 25rem;
+    height: 42rem;
     text-align: left;
-    padding: 3rem;
+    padding: 4rem;
+    margin: 8rem;
   }
   .historia-titulo, .historia-texto {
     margin: 0%;

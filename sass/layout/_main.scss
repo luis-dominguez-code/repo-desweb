@@ -214,21 +214,39 @@
 }
 
 .card-historia{
-  margin: 5rem;
+  
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-position: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  align-items: center;
+  
+
+
 }
 
 .img-historia{
   width: 100%;
-  object-fit: contain;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  max-width: 90%;
 }
 
 .img-historia-1, .img-historia-2{
-  border-color: rgb(24, 23, 23);
-  box-shadow: 0 5px 10px #000;
+  max-width: 80%;
+  object-fit: contain;
+  
+  
 }
 
 
