@@ -35,6 +35,44 @@
   margin: 2rem;
 }
 
+.card-historia{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: center;
+
+  
+}
+
+.img-historia-1{
+  width: 30rem !important;
+  height: 18rem !important;
+  margin: 1rem !important;
+  position: relative;
+}
+
+.img-historia-2{
+  width: 30rem !important;
+  height: 20rem !important;
+  margin: 1rem !important;
+  position: relative;
+
+}
+
+.body-historia{
+  width: 26rem;
+  height: 32rem;
+  text-align: left;
+  padding: 3rem;
+
+
+}
+
+.historia-titulo, .historia-texto{
+  margin: 0%;
+  padding: 0.4rem;
+}
+
 
 
 
@@ -70,6 +108,8 @@
   margin: 3rem;
 
 }
+
+
 .card-contacto{
   display: flex;
   padding: 2rem;

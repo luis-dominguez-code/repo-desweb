@@ -1,5 +1,8 @@
 /* Estilos Main */
 
+
+
+
 .sucursale-main-container{
   
     @extend %flexcolumn;
@@ -30,7 +33,7 @@
 
 }
 
-.index-main, .main-index, .main-faqs{
+.index-main, .main-index, .main-faqs, .sucursale-main-container{
   background-color: $backgroundcolorazul;
   margin: 0rem;
   
@@ -210,3 +213,42 @@
   border-color: gray;
 }
 
+.card-historia{
+  margin: 5rem;
+}
+
+.img-historia{
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.img-historia-1, .img-historia-2{
+  border-color: rgb(24, 23, 23);
+  box-shadow: 0 5px 10px #000;
+}
+
+
+
+.body-historia{
+  border-color: #fff;
+  box-shadow: 0 5px 10px #000;
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: 700;
+  background-color: rgb(39, 45, 56);
+
+}
+
+.historia-titulo{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.historia-titulo, .historia-texto{
+  margin: 1rem;
+  padding: 1rem;
+}

@@ -3,3 +3,11 @@
     flex-direction: column;
     justify-content: center;
 }
+@mixin flexheader{
+    position: absolute;
+    bottom: 20%;
+    gap: 3rem;
+    max-width: 40rem;
+    margin: 3%;
+    
+}

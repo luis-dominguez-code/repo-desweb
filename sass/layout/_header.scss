@@ -76,12 +76,17 @@
 
 .contenedor-inferior-header{
   @include flexmixin;
-  position: absolute;
-  bottom: 0%;
-  gap: 2rem;
-  max-width: 40rem;
-  margin: 3%;
+  @include flexheader;
   
+}
+
+.contenedor-inferior-header-index{
+  @include flexheader;
+  bottom: 10%;
+  @include flexmixin;
+
+  
+
 }
 .contenedor-inferior-header-contacto{
   @include flexmixin;
@@ -103,7 +108,7 @@
   
 }
 .index-parrafoheader{
-  color: rgb(247, 247, 247);
+  color: $colorblanco;
   width: 100%;
   text-align: left;
   font-size: x-large;
@@ -116,7 +121,7 @@
 
 }
 
-.index-h1-contacto{
+.index-h1-contacto,.index-h1{
   text-decoration: underline;
   margin: initial;
 }
@@ -143,7 +148,8 @@
 
 
 .contenedor-inferior-header-motos h1,.contenedor-inferior-header-motos p {
- max-width: 30rem;
+ max-width: 40rem;
+ margin-bottom: inherit;
 }
 
 
