@@ -177,10 +177,6 @@ ul, .footer-container-flex, .sucursale-main-container {
   filter: brightness(0.6);
 }
 
-.d-flex {
-  margin: 5rem 16rem;
-}
-
 /* Estilos Main */
 .sucursales-titulo {
   text-align: center;
